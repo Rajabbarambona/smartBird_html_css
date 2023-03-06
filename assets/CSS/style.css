@@ -48,7 +48,7 @@ h3 {
 
 strong {
     display: block;
-    margin: 0px margin;
+    /* margin: 0px auto; */
 }
 
 hr {
@@ -111,15 +111,19 @@ svg {
     margin-left: 10px;
 }
 
-.login-btn,
+
+/* .login-btn, */
+
 .red-btn {
     margin-bottom: .8rem;
     width: 126px;
 }
 
+
+/* 
 .login-btn {
     background-color: #000000;
-}
+} */
 
 .red-btn {
     background-color: #F36F54;
@@ -206,7 +210,6 @@ svg {
     text-align: center;
     background-color: #f8f8ff;
     padding: 1rem 1rem;
-    /* margin: 0 2rem 2rem 2rem; */
 }
 
 .poultry-middle-part {
@@ -249,7 +252,7 @@ svg {
 
 .maximize-heading-and-paragraph {
     align-self: center;
-    max-width: 380px;
+    /* max-width: 380px; */
 }
 
 .pricing-section {
@@ -258,9 +261,24 @@ svg {
     margin: 0 2rem 4rem 2rem;
 }
 
+.monthly-plan h2,
+.annual-plan h2,
+.lifetime-plan h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
 .pricing-section-heading-centered {
     text-align: center;
     margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.dollars {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 .monthly-plan,
