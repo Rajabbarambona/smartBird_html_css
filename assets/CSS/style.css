@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.667;
+    color: #666666;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #888;
+    margin: 0 0 15px 16px;
+    font-weight: 800;
+    font-family: "Roboto Condensed", sans-serif;
+    max-width: 350px;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: fantasy;
+    color: #555555;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+.header {
+    margin-bottom: 4rem;
+}
+
+.btn-similar-properties {
+    width: 9rem;
+    min-height: 3rem;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 1.875rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+strong {
+    display: block;
+    margin: 0px margin;
+}
+
+hr {
+    margin-bottom: 1rem;
+    border-top: 2px solid;
+}
+
+svg {
+    background-color: #F36F54;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #888;
+    margin-left: 378px;
+}
+
+
+/* Web site heading section or menu section*/
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar,
+.navbar-list,
+.navbar-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9a9898;
+}
+
+.navbar-list {
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+
+/* Making Home active*/
+
+.navbar ul li a.active {
+    background-color: #ddd4d4;
+    border-radius: 23px;
+    margin-left: 10px;
+}
+
+.login-btn,
+.red-btn {
+    margin-bottom: .8rem;
+    width: 126px;
+}
+
+.login-btn {
+    background-color: #000000;
+}
+
+.red-btn {
+    background-color: #F36F54;
+}
+
+
+/* End of the heading section*/
+
+
+/* Web site first part or Hero image part or web site top part*/
+
+.hero-image {
+    width: 374px;
+    margin-inline: 1rem;
+}
+
+.hero-section-paragraph {
+    margin: 0 0 1rem 1rem;
+    max-width: 475px;
+}
+
+.hero-section-btn {
+    min-width: 14rem;
+    margin-inline: 5rem;
+}
+
+.hero-section-btn:hover {
+    background-color: #fcb900;
+}
+
+
+/* End of hero section part */
+
+.poultry-top-part {
+    margin-bottom: 5rem;
+}
+
+.poultry-part-image,
+.smartBird-top-part-image {
+    display: block;
+    margin: 0px auto;
+}
+
+.smartBird-top-part {
+    margin-bottom: 4rem;
+}
+
+.poultry-part-paragraph,
+.poultry-part-heading,
+.smartBird-top-part-heading,
+.smartBird-top-part-paragraph,
+.smartBird-top-part-heading3,
+.smartBird-top-part-centered-paragraph {
+    text-align: center;
+}
+
+.smartBird-top-part-paragraph {
+    margin-bottom: 1rem;
+}
+
+.smartBird-top-part-centered-paragraph {
+    max-width: 1156px;
+    margin: 0px auto;
+}
+
+
+/* Using css grid to align smartBird paragraph accordingly */
+
+.smartBird-parallel-paragraph {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+    max-width: 1156px;
+    margin-inline: 1rem;
+    margin-bottom: 4rem;
+}
+
+.smartBird-top-left-paragraph,
+.smartBird-bottom-left-paragraph {
+    margin-right: 5px;
+}
+
+.measures {
+    text-align: center;
+    background-color: #f8f8ff;
+    padding: 1rem 1rem;
+    /* margin: 0 2rem 2rem 2rem; */
+}
+
+.poultry-middle-part {
+    margin: 2rem;
+}
+
+.poultry-production-part {
+    min-height: 509px;
+}
+
+.poultry-mgt-part {
+    min-height: 509px;
+}
+
+.poultry-financial-part {
+    min-height: 509px;
+}
+
+.poultry-middle-paragraph {
+    text-align: center;
+}
+
+.maximize-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f8ff;
+    margin-bottom: 5rem;
+    min-height: 41rem;
+}
+
+.maximize-paragraph {
+    margin-bottom: 3rem;
+    min-width: 470px;
+}
+
+.maximize-image {
+    height: 480px;
+}
+
+.maximize-heading-and-paragraph {
+    align-self: center;
+    max-width: 380px;
+}
+
+.pricing-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 4rem 2rem;
+}
+
+.pricing-section-heading-centered {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.monthly-plan,
+.annual-plan,
+.lifetime-plan {
+    max-width: 350px;
+    min-height: 988px;
+    background-color: #f8f8ff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.pricing-section-list {
+    list-style: none;
+    margin-bottom: 1rem;
+    padding-inline: 10px;
+}
+
+.pricing-section-black-btn {
+    background-color: #000000;
+    display: block;
+    margin: 0px auto;
+}
+
+.pricing-section-short-paragraph {
+    text-align: center;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f8ff;
+    padding: 2rem;
+}
+
+.footer-section-links li {
+    list-style: none;
+}
+
+.footer-section-links a {
+    text-decoration: none;
+}
+
+.footer-section p {
+    max-width: 290px;
+}
+
+.footer-section-left-part,
+.footer-section-links,
+.footer-section-newsletter-part {
+    margin-right: 2rem;
+}
+
+.footer-section-newsletter-part p {
+    margin-bottom: 2rem;
+}
+
+.input-and-svg {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Register Form */
+
+.form-heading img {
+    display: block;
+    margin: 7rem 0 0 28rem;
+}
+
+.form-heading h3 {
+    margin-left: 27rem;
+    margin-bottom: 3rem;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-body {
+    background-color: #f8f8ff;
+}
+
+.wrapper {
+    max-height: 950px;
+    margin-top: 2px;
+}
+
+.reg-hen {
+    margin-top: -163px;
+    max-width: 950px;
+    min-height: 1260px;
+}
+
+.register-form {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 50% 50%;
+}
+
+.form-data input {
+    margin-bottom: 1rem;
+    min-width: 24rem;
+    min-height: 3rem;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 1px 1px 0;
+}
+
+.heading-right-part {
+    align-self: center;
+}
+
+.privacy-policy {
+    text-align: left;
+}
+
+.register-form-btn {
+    min-width: 24rem;
+    min-height: 3rem;
+    color: #d6d3d3;
+    background-color: #789128;
+    border-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#privacy-policy,
+.register-form-btn {
+    margin-bottom: 1rem;
+}
+
+.site-agreement {
+    margin-left: -5rem;
+}
+
+.register-form-last-part p {
+    text-align: center;
+}
+
+.terms-conditions {
+    color: #789128;
+}
+
+@media (min-width:768px) {
+    .header {
+        margin-bottom: 10rem;
+    }
+    .navbar {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        margin-bottom: 4rem;
+    }
+    h1 {
+        text-transform: uppercase;
+        color: #888;
+        margin: 0 0 15px 0;
+        font-size: 50px;
+        line-height: 1.25;
+        font-family: "Roboto Condensed", sans-serif;
+        max-width: 350px;
+    }
+    .navbar,
+    .navbar-list,
+    .navbar-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #faf8fa;
+        min-height: 78px;
+    }
+    .navbar-list {
+        display: inline-flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 15px;
+        margin: 0 -88px 0 -29px;
+        list-style: none;
+        justify-content: space-between;
+    }
+    .navbar a {
+        color: #000000;
+        text-decoration: none;
+        padding: 15px 28px;
+        font-weight: bolder;
+    }
+    .navbar a:hover {
+        color: #F36F54;
+    }
+    .navbar-btn {
+        display: flex;
+        margin-left: 62px;
+    }
+    .login-btn {
+        width: 126px;
+        margin-left: 6rem;
+        background-color: #000000;
+    }
+    /*Hero Part*/
+    .hero-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+    .hero-section-btn {
+        min-width: 14rem;
+        margin-left: 1px;
+    }
+    .hero-section-paragraph {
+        margin: 0 0 2rem;
+        max-width: 475px;
+    }
+    .hero-image {
+        width: 554px;
+    }
+    .hero-text-and-btn-part {
+        margin-right: 9rem;
+    }
+    .entry-content::before {
+        content: "";
+        display: table;
+        table-layout: fixed;
+    }
+    .magic-ball::before {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 8px solid #F36F54;
+        opacity: .5;
+        position: absolute;
+        bottom: -68px;
+        left: 200px;
+        top: 755px;
+    }
+    .magic-ball::after {
+        content: "";
+        display: block;
+        width: 68px;
+        height: 68px;
+        border-radius: 50%;
+        background-color: #ebebff;
+        opacity: .5;
+        position: absolute;
+        bottom: -263px;
+        left: 265px;
+        top: 893px;
+    }
+    .poultry-top-part {
+        margin-bottom: 5rem;
+    }
+    .poultry-part-image,
+    .smartBird-top-part-image {
+        display: block;
+        margin: 0px auto;
+    }
+    .smartBird-top-part {
+        margin-bottom: 4rem;
+    }
+    .poultry-part-paragraph,
+    .poultry-part-heading,
+    .smartBird-top-part-heading,
+    .smartBird-top-part-paragraph,
+    .smartBird-top-part-heading3,
+    .smartBird-top-part-centered-paragraph {
+        text-align: center;
+    }
+    .smartBird-top-part-paragraph {
+        margin-bottom: 1rem;
+    }
+    .smartBird-top-part-centered-paragraph {
+        max-width: 1140px;
+        margin: 0px auto;
+    }
+    /* Using css grid to align smartBird paragraph accordingly */
+    .smartBird-parallel-paragraph {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 50% 50%;
+        max-width: 1140px;
+        margin: 0px auto;
+        margin-bottom: 4rem;
+    }
+    .smartBird-top-left-paragraph,
+    .smartBird-bottom-left-paragraph {
+        margin-right: 5px;
+    }
+    .poultry-middle-part {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4rem;
+        max-width: 1140px;
+        gap: 3rem;
+    }
+    .measures {
+        max-width: 350px;
+        text-align: center;
+        background-color: #f8f8ff;
+        padding: 1rem 1rem;
+    }
+    .poultry-production-part {
+        min-height: 509px;
+    }
+    .poultry-middle-part-image {
+        margin-bottom: -22px;
+    }
+    .poultry-mgt-part {
+        min-height: 509px;
+        margin-left: -2rem;
+    }
+    .poultry-financial-part {
+        min-height: 509px;
+    }
+    .poultry-middle-paragraph {
+        text-align: center;
+        width: 299px;
+    }
+    .maximize-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #f8f8ff;
+        margin-bottom: 5rem;
+        min-height: 41rem;
+        margin-left: -5rem;
+    }
+    .maximize-paragraph {
+        margin-bottom: 3rem;
+        width: 448px;
+    }
+    .maximize-image {
+        padding-top: 3px;
+        margin-right: 6rem;
+        width: 540px;
+        height: 480px;
+    }
+    .maximize-heading-and-paragraph p {
+        align-self: center;
+        width: 470px;
+    }
+    .pricing-section {
+        display: flex;
+        flex-direction: row;
+        max-width: 1140px;
+        margin: 0 auto;
+        gap: 2rem;
+        /* justify-content: center;
+        align-items: center; */
+        margin-bottom: 4rem;
+    }
+    .pricing-section-heading-centered {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .monthly-plan,
+    .annual-plan,
+    .lifetime-plan {
+        max-width: 350px;
+        min-height: 988px;
+        background-color: #f8f8ff;
+        margin-right: 16px;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    .pricing-section-list {
+        list-style: none;
+        margin-bottom: 1rem;
+        padding-inline: 10px;
+    }
+    .pricing-section-black-btn {
+        background-color: #000000;
+        display: block;
+        margin: 0 auto;
+    }
+    .pricing-section-short-paragraph {
+        text-align: center;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: row;
+        background-color: #f8f8ff;
+        padding: 2rem;
+        margin-left: -10rem;
+    }
+    .footer-section-left-part h3,
+    .footer-section-newsletter-part h3,
+    .footer-section-links h3,
+    .footer-section-right h3 {
+        text-transform: uppercase;
+        color: #888;
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .footer-section .footer-section-left-part p {
+        max-width: 250px;
+    }
+    .footer-section-newsletter-part {
+        max-width: 250px;
+    }
+    .footer-section-left-part,
+    .footer-section-links,
+    .footer-section-newsletter-part {
+        margin-right: 2rem;
+        line-height: 1.5;
+    }
+    .footer-section-links ul li {
+        line-height: 2;
+    }
+    .footer-section-right h3 {
+        margin-bottom: 1rem;
+    }
+}
