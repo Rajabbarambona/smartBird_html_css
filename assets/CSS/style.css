@@ -539,7 +539,7 @@ svg {
         margin-bottom: 1rem;
     }
     .smartBird-top-part-centered-paragraph {
-        max-width: 1140px;
+        max-width: 1050px;
         margin: 0px auto;
     }
     /* Using css grid to align smartBird paragraph accordingly */
@@ -552,8 +552,11 @@ svg {
         margin-bottom: 4rem;
     }
     .smartBird-top-left-paragraph,
-    .smartBird-bottom-left-paragraph {
+    .smartBird-bottom-left-paragraph,
+    .smartBird-top-right-paragraph,
+    .smartBird-bottom-right-paragraph {
         margin-right: 5px;
+        max-width: 510px;
     }
     .poultry-middle-part {
         display: flex;
@@ -628,7 +631,7 @@ svg {
         max-width: 350px;
         min-height: 988px;
         background-color: #f8f8ff;
-        margin-right: 16px;
+        margin-right: 29px;
         padding: 1rem;
         border-radius: 5px;
     }
